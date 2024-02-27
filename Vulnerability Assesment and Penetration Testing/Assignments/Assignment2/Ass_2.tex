@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}
+{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\begin{document}
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+
+	\raggedleft\rule{1pt}{\textheight} % Vertical line
+	\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+	\parbox[b]{0.75\textwidth}
+    { % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+		
+		{\Huge\bfseries MIT World Peace University \\[0.5\baselineskip] \ Vulnerability Identification and Penetration Testing}\\[2\baselineskip] % Title
+		{\large\textit{Assignment 2}}\\[4\baselineskip] % Subtitle or further description
+		{\Large\textsc{Naman Soni Roll No. 06}} % Author name, lower case for consistent small caps
+		
+		\vspace{0.5\textheight} % Whitespace between the title block and the publisher
+	}
+
+\end{titlepage}
+\tableofcontents
+\pagebreak
+\section{\textbf{Title}}
+Find sweep IP ranges for live.
+\section{\textbf{Theory}}
+\subsection{\textit{Introduction to Nmap}}
+Nmap, short for ``Network Mapper'' is a versatile and powerful open-source tool primarily used for network exploration, security auditing, and vulnerability scanning. Developed by Fyodor, it allows users to discover hosts and services on a computer network, finding open ports, identifying operating systems, and detecting potential vulnerabilities. With its flexible scanning techniques and scripting capabilities, Nmap is widely used by network administrators, security professionals, and ethical hackers to assess and secure networks.
+\subsection{\textit{It's need/purpose of Nmap}}
+The primary purpose of Nmap is to scan computer networks to discover hosts, services, open ports, and operating systems. It serves as a vital tool for network exploration, security auditing, and vulnerability assessment, helping administrators and security professionals identify potential security risks and weaknesses in their networks.
+\subsection{\textit{Advantages}}
+\begin{itemize}
+    \item \textbf{Versatility:} Offers a wide range of scanning techniques.
+    \item Open Source: Free to use, modify, and distribute.
+    \item Cross-Platform Compatibility: Works on various operating systems.
+    \item Comprehensive Scanning: Identifies hosts, services, ports, OS, and vulnerabilities.
+    \item Scripting Engine (NSE): Allows customization and automation.
+    \item Efficiency: Scans large networks quickly and accurately.
+    \item Stealth Capabsdilities: Conducts discreet scans to evade detection.
+    \item Multiple Output Formats: Provides flexible output options.
+    \item Community Support: Active community for assistance and documentation.
+\end{itemize}
+\end{document}
